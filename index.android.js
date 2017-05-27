@@ -12,7 +12,7 @@ import {
   View
 } from 'react-native';
 
-export default class Animations extends Component {
+export default class ReactNativeAnimations extends Component {
   render() {
     return (
       <View style={styles.container}>
@@ -50,4 +50,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('Animations', () => Animations);
+AppRegistry.registerComponent('ReactNativeAnimations', () => ReactNativeAnimations);

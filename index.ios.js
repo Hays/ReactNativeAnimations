@@ -26,7 +26,7 @@ import AnimatedFadeDemo from 'AnimatedDemo/fade'
 import AnimatedTranslateDemo from 'AnimatedDemo/translate'
 import AnimatedZoomDemo from 'AnimatedDemo/zoom'
 
-export default class Animations extends Component {
+export default class ReactNativeAnimations extends Component {
   render() {
     return (
       <View style={styles.container}>
@@ -52,7 +52,7 @@ const styles = StyleSheet.create({
 
 const scenes = Actions.create(
   <Scene key="root">
-    <Scene key="rootView" component={Animations} title="View1" />
+    <Scene key="rootView" component={ReactNativeAnimations} title="View1" />
     <Scene key="layoutFade" component={FadeDemo} title="LayoutFade" />
     <Scene key="layoutTrans" component={TranslateDemo} title="LayoutTranslate" />
     <Scene key="layoutZoom" component={ZoomDemo} title="LayoutZoom" />
@@ -68,4 +68,4 @@ class App extends Component {
   }
 }
 
-AppRegistry.registerComponent('Animations', () => App);
+AppRegistry.registerComponent('ReactNativeAnimations', () => App);

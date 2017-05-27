@@ -1,7 +1,6 @@
 # OSX
 #
 .DS_Store
-.private
 
 # Xcode
 #
@@ -36,10 +35,6 @@ local.properties
 node_modules/
 npm-debug.log
 yarn-error.log
-
-# VSCode
-#
-jsconfig.json
 
 # BUCK
 buck-out/

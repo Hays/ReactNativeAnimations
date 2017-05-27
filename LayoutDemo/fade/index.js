@@ -19,7 +19,7 @@ export default class FadeDemo extends Component {
     if (Platform.os === 'android') {
       UIManager.setLayoutAnimationEnabledExperimental && UIManager.setLayoutAnimationEnabledExperimental(true);
     }
-    // LayoutAnimation实则为Component发生变化的时候进行动画过渡
+    // LayoutAnimation实则为Component布局发生变化的时候进行动画过渡
   }
   componentWillUpdate() {
     LayoutAnimation.easeInEaseOut()

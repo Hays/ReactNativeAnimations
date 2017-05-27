@@ -1,4 +1,4 @@
-package com.animations;
+package com.reactnativeanimations;
 
 import android.app.Application;
 
