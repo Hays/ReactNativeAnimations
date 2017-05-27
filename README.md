@@ -207,7 +207,9 @@ class AnimatedTranslateDemo extends Component {
 <a name="参考资料"></a>
 ### 参考资料
 [React Native官方文档](http://facebook.github.io/react-native/docs/animations.html)
+
 [React Native Animated源码](https://github.com/facebook/react-native/tree/master/Libraries/Animated/src)
+
 [React Native LayoutAnimation源码](https://github.com/facebook/react-native/blob/master/Libraries/LayoutAnimation/LayoutAnimation.js)
 
 
