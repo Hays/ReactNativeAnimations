@@ -1,12 +1,12 @@
 # React Native Animation
 
 ## 目录
-* [React Native动画实现的方式](#React Native动画实现的方式)
+* [React Native动画实现的方式](#ReactNative动画实现的方式)
 * [LayoutAnimation](#LayoutAnimation)
 * [Animated](#Animated)
 * [参考资料](#参考资料)
 
-<a name="React Native动画实现的方式"></a>
+<a name="ReactNative动画实现的方式"></a>
 ### React Native动画实现的方式
 React Native本身提供的动画实现有如下两种方式：
 
